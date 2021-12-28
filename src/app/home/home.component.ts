@@ -9,6 +9,9 @@ export class HomeComponent implements OnInit {
 
   homeTitle =  "Welcome to my Directory!";
   MyString = "Amal"
+  alertMe(){
+    alert("hey There!");
+  }
   constructor() { }
 
   ngOnInit(): void {
