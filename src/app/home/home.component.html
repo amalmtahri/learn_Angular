@@ -1,4 +1,9 @@
 <p>{{homeTitle}}</p>
-<input type="text" value="{{MyString}}"><br>
-<button (click) = "alertMe()">Click Me!</button>
+<input type="text" value="{{MyString}}" class="form-control"><br>
+<button (click) = "alertMe()" class="btn btn-primary">Click Me!</button><br>
 <ng-content></ng-content>
+<div>
+    <input type="number" value="{{directory.age}}" class="form-control"><br>
+    <span>{{directory.name}}</span>
+    <span> {{directory.age}} </span>
+</div>

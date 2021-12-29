@@ -8,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   homeTitle =  "Welcome to my Directory!";
-  MyString = "Amal"
+  MyString = "Amal";
+  directory = {
+    name:"amal",
+    age:21
+  };
   alertMe(){
     alert("hey There!");
   }
