@@ -11,4 +11,7 @@ export class AppComponent {
     name:"amal",
     age:21
   };
+  yell(e:any){
+    alert("I am yelling");
+  }
 }
