@@ -47,3 +47,28 @@ nav{
     box-sizing: border-box;
     margin: 0 auto
   }
+  #ninja-listing li{
+    padding: 16px 0;
+    border-bottom: 1px solid #e4e4e4;
+  }
+  .single-ninja span{
+    display: inline-block;
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 8px !important;
+  }
+  
+  .single-ninja h3{
+    padding: 4px;
+    font-size: 20px;
+    margin-left: 20px;
+    display: inline-block;
+  }
+  
+  .single-ninja div{
+    float: right;
+    margin-right: 10px;
+    line-height: 20px;
+    cursor: pointer;
+  }

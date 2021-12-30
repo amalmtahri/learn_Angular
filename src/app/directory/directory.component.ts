@@ -7,6 +7,11 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./directory.component.css']
 })
 export class DirectoryComponent implements OnInit {
+  ninjas = [
+    {name:"Yoshi",belt:"black"},
+    {name:"Ryu",belt:"red"},
+    {name:"Crystal",belt:"purple"}
+  ]
   ninja: string;
   constructor(private route: ActivatedRoute) { 
     this.ninja = route.snapshot.params['ninja'];
