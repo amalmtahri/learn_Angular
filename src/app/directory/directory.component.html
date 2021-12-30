@@ -1,2 +1,15 @@
-<p>directory works!</p>
+<p [ngClass] = "{'blue':true,'red':false,'underline':true}">directory works!</p>
 <p> {{ninja}} </p>
+<p *ngIf = "true">Only show if test is true</p>
+
+<style>
+    .blue{
+        color: blue;
+    }
+    .red{
+        color: red;
+    }
+    .underline{
+        text-decoration: underline;
+    }
+</style>

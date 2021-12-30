@@ -10,6 +10,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 const appRoutes: Routes = [
   { path: 'directory/:ninja', component: DirectoryComponent },
+  { path: 'directory', component: DirectoryComponent },
   { path: 'home', component: HomeComponent },
 ];
 @NgModule({
