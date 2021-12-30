@@ -8,15 +8,11 @@
             <!-- Belt colour -->
             <span [ngStyle]="{background:ninja.belt}">{{ninja.belt}} belt</span>
             <!-- Ninja name -->
-            <h3>{{ninja.name}}</h3>
+            <h3>{{ninja.name | uppercase}}</h3>
             <div >delete</div>
         </div>
     </li>
 </ul>
-
-
-
-
 
 <style>
     .blue{
