@@ -2,13 +2,18 @@
 <p> {{ninja}} </p>
 <!-- <p *ngIf = "true">Only show if test is true</p> -->
 <h2>Ninja Listing</h2>
+<form id="filter">
+    <label> Filter ninjas by name : </label>
+    <input type="text" ng-model="term" />
+</form>
 <ul id="ninja-listing">
-    <li *ngFor="let ninja of ninjas">
+    <li *ngFor="let ninja of ninjas ">
         <div class="single-ninja">
             <!-- Belt colour -->
             <span [ngStyle]="{background:ninja.belt}">{{ninja.belt}} belt</span>
             <!-- Ninja name -->
-            <h3>{{ninja.name | uppercase}}</h3>
+            <!-- <h3>{{ninja.name | uppercase}}</h3> -->
+            <h3>{{ninja.name}}</h3>
             <div >delete</div>
         </div>
     </li>

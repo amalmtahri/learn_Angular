@@ -6,6 +6,7 @@ import { EventsListComponent } from './events/events-list.component';
 import { HomeComponent } from './home/home.component';
 import { DirectoryComponent } from './directory/directory.component';
 import { RouterModule, Routes } from '@angular/router';
+import { FilterPipe } from './filter.pipe';
 
 
 const appRoutes: Routes = [
@@ -20,7 +21,8 @@ const appRoutes: Routes = [
     AppComponent,
     EventsListComponent,
     HomeComponent,
-    DirectoryComponent
+    DirectoryComponent,
+    FilterPipe
   ],
   providers: [],
   bootstrap: [AppComponent]

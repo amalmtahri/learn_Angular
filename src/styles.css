@@ -72,3 +72,18 @@ nav{
     line-height: 20px;
     cursor: pointer;
   }
+  #filter{
+    padding: 16px;
+    background: #e7e7e7;
+    border-radius: 2px;
+    line-height: 30px
+  }
+  
+  #filter input{
+    padding: 6px;
+    height: 40px;
+    width: 300px;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    float: right;
+  }
