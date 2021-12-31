@@ -9,11 +9,7 @@ import { LoggingService } from '../logging.service';
   providers: [LoggingService]
 })
 export class DirectoryComponent implements OnInit {
-  ninjas = [
-    {name:"Yoshi",belt:"black"},
-    {name:"Ryu",belt:"red"},
-    {name:"Crystal",belt:"purple"}
-  ]
+  ninjas = [];
   ninja: string;
   constructor(private route: ActivatedRoute, private logger:LoggingService) { 
     this.ninja = route.snapshot.params['ninja'];

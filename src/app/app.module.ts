@@ -8,7 +8,6 @@ import { DirectoryComponent } from './directory/directory.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FilterPipe } from './filter.pipe';
 
-
 const appRoutes: Routes = [
   { path: 'directory/:ninja', component: DirectoryComponent },
   { path: 'directory', component: DirectoryComponent },
